@@ -30,8 +30,15 @@ def home():
     return flask.Response(html, status=200,
                           headers={"A": "apple", "B": "banana"})
 
-last_visit = 0
 
+@app.route("/robots.txt")
+def robo():
+    s =  "\n".join(["User-Agent: *"
+                    "Disallow: \laugh.html"])
+    return flask.Response(s, headers={"Content-Type": "text/plain"})
+
+
+last_visit = 0
 @app.route("/goaway.html")
 def goaway():
     global last_visit

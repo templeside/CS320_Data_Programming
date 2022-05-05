@@ -1,0 +1,12 @@
+[I 07:31:23.587 NotebookApp] The port 2020 is already in use, trying another port.
+[I 07:31:23.587 NotebookApp] The port 2021 is already in use, trying another port.
+[I 07:31:23.587 NotebookApp] The port 2022 is already in use, trying another port.
+[I 07:31:23.587 NotebookApp] The port 2023 is already in use, trying another port.
+[I 07:31:23.587 NotebookApp] The port 2024 is already in use, trying another port.
+[I 07:31:23.588 NotebookApp] Serving notebooks from local directory: /home/charles/s22/p5
+[I 07:31:23.588 NotebookApp] Jupyter Notebook 6.4.8 is running at:
+[I 07:31:23.588 NotebookApp] http://instance-1:2028/
+[I 07:31:23.588 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 00:24:26.780 NotebookApp] received signal 15, stopping
+[I 00:24:27.028 NotebookApp] Shutting down 0 kernels
+[I 00:24:27.029 NotebookApp] Shutting down 0 terminals

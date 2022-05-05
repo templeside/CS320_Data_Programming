@@ -55,6 +55,7 @@ def robo():
 
 @app.route("/add")
 def adder():
+    print(flask.request.args)
     args = dict(flask.request.args)
     print(args)
     total = int(args["a"]) + int(args["b"])
